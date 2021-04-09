@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dosis:wght@300&family=Train+One&display=swap');
+
+*{
+    position: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.txt{
+    text-align:center ;
+    position: absolute;
+justify-content: center;
+width: 100%;
+}
+.txt span{
+color: #fff;
+text-transform:uppercase;
+display: block;
+
+
+}
+.text1{
+    color: white;
+font-size: 60px;
+font-weight: 700;
+letter-spacing: 3px;
+margin-bottom: 20px;
+position: relative;
+animation: txt 2s ;
+}
+.text2{
+    font-size: 30px;
+}
+@keyframes txt {
+    0%{
+        color:  #f20000;
+        margin-bottom:  -40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom:  -40px;
+    }
+    55%{
+        letter-spacing: 8px;
+        margin-bottom:  40px;
+
+    }
+}
+body{
+   background-color:  rgb(7,7,17,0.63);
+}
+
+movies{
+margin-top: 20px;
+border-radius: 15px;
+}
+.movielater{
+ 
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.movieitem{
+padding: 3px;
+}
+.movielater img{
+  
+    border-radius: 15px;
+    margin: 25px 10px;
+}
+.movielater a{
+    text-decoration: none;
+    height: 1px;
+    
+}
+.movielater a h2{
+    font-size: 25px;
+ color: #fff;
+
+ 
+}
+.movieitem .btn{
+    position: absolute;
+  top: 43%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    background-color: #f20000;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor:pointer;
+    border-radius: 5px;
+
+}
+
+

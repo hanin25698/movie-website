@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Kiwi+Maru&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ubuntu' sans-serif;
+}
+body{
+    background-color:#fff;
+}
+.request-us{
+   width: 250px; 
+background:rgb(7,7,17,0.63);
+padding:50px;
+margin: 100px auto;
+border-radius: 30px;
+position: relative;
+}
+.title h1{
+    color:#fff;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+.request-us  p{
+    color: #fff;
+}
+
+.form-item{
+    width: 100px;
+}
+.form-item .input{
+   width: 100px;
+   margin-bottom: 12px; 
+   padding: 15px 60px;
+   border-radius: 30px;
+   background: #ebeef1;
+   border: 0;
+   outline: none;
+}
+.btn{
+    background:#fe0000;
+    text-align: center;
+    color:#fff;
+    padding: 15px 32px;
+    border-radius: 30px;
+    cursor:pointer;
+    border:none;
+    display:inline-block;
+}
+
